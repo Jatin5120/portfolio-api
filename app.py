@@ -10,6 +10,8 @@ app = Flask(__name__)
 @app.route("/home/")
 @app.route("/dashboard/")
 def index():
+    global allData
+
     return allData
     # return jsonify(allData)
 
@@ -17,6 +19,8 @@ def index():
 @app.route("/project/")
 @app.route("/project/<projectId>/")
 def project(projectId=None):
+    global projects
+
     if projectId is None:
         return jsonify({"error": "Project id is required"})
 
