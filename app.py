@@ -3,7 +3,7 @@ import json
 
 app = Flask(__name__)
 
-global allData, projects
+# allData, projects = {}, []
 
 
 @app.route("/")
@@ -33,6 +33,8 @@ def noRoute(route):
 
 
 if __name__ == "__main__":
+
+    global allData, projects
 
     data = open("all.json", "r")
     allData = json.load(data)
