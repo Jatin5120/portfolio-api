@@ -3,8 +3,6 @@ import json
 
 app = Flask(__name__)
 
-allData, projects = {}, []
-
 
 def setData():
     global allData, projects
@@ -16,14 +14,17 @@ def setData():
     projects = json.load(data)
 
 
+def getError(error="Invalid request", message="Unknown error occured."):
+    return jsonify({"error": error, "message": message})
+
+
 @app.route("/")
 @app.route("/home/")
 @app.route("/dashboard/")
 def index():
     global allData
 
-    return allData
-    # return jsonify(allData)
+    return jsonify(allData)
 
 
 @app.route("/project/")
@@ -32,21 +33,24 @@ def project(projectId=None):
     global projects
 
     if projectId is None:
-        return jsonify({"error": "Project id is required"})
+        return getError(error="Invalid request", message="Project ID is missing")
 
     for project in projects:
         if project["id"] == projectId:
-            return project
-            # return jsonify(project)
-    return jsonify({"error": "Project not found"})
+
+            return jsonify(project)
+
+    return getError(error="Wrong Project ID", message="Project not found")
 
 
 @app.route("/<route>/")
-def noRoute(route):
-    return jsonify({"error": f"Route: '{route}' not found"})
+@app.route("/<route>/<projectId>/")
+def noRoute(route, projectId=None):
+    return getError(error="Invalid route", message=f"Route '{route}' not found")
 
 
 if __name__ == "__main__":
+    allData, projects = {}, []
     setData()
 
     app.run(debug=True)
