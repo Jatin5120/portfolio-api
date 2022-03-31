@@ -6,6 +6,16 @@ app = Flask(__name__)
 allData, projects = {}, []
 
 
+def setData():
+    global allData, projects
+
+    data = open("all.json", "r")
+    allData = json.load(data)
+
+    data = open("projects.json", "r")
+    projects = json.load(data)
+
+
 @app.route("/")
 @app.route("/home/")
 @app.route("/dashboard/")
@@ -37,13 +47,6 @@ def noRoute(route):
 
 
 if __name__ == "__main__":
-
-    # global allData, projects
-
-    data = open("all.json", "r")
-    allData = json.load(data)
-
-    data = open("projects.json", "r")
-    projects = json.load(data)
+    setData()
 
     app.run(debug=True)
