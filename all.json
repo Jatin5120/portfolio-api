@@ -1,0 +1,75 @@
+{
+  "profilePicture": "",
+  "name": "Jatin",
+  "designation": "Flutter Developer",
+  "about": [
+    {
+      "images": [],
+      "description": ""
+    }
+  ],
+  "projects": [
+    {
+      "id": "1",
+      "name": "",
+      "icon": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#FFB300"
+        }
+      ]
+    }
+  ],
+  "contacts": [
+    {
+      "type": "Linked In",
+      "label": "Jatin5120",
+      "icon": "",
+      "link": "https://www.linkedin.com/in/Jatin5120/",
+      "color": "#FFB300"
+    },
+    {
+      "type": "Whatsapp",
+      "label": "+91 95307-63826",
+      "icon": "",
+      "link": "https://wa.me/919530763826/",
+      "color": "#FFB300"
+    },
+    {
+      "type": "Call",
+      "label": "+91 62834-01360",
+      "icon": "",
+      "link": "tel:+916283401360",
+      "color": "#FFB300"
+    },
+    {
+      "type": "Github",
+      "label": "Jatin5120",
+      "icon": "",
+      "link": "https://www.github.com/Jatin5120/",
+      "color": "#FFB300"
+    },
+    {
+      "type": "Instagram",
+      "label": "jatin5120_",
+      "icon": "",
+      "link": "https://www.instagram.com/jatin5120_/",
+      "color": "#FFB300"
+    },
+    {
+      "type": "Twitter",
+      "label": "Jatin5120",
+      "icon": "",
+      "link": "https://www.twitter.com/Jatin5120/",
+      "color": "#FFB300"
+    },
+    {
+      "type": "Email",
+      "label": "getjatin5120@gmail.com",
+      "icon": "",
+      "link": "mailto:getjatin5120@gmail.com",
+      "color": "#FFB300"
+    }
+  ]
+}

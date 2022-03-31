@@ -1,0 +1,32 @@
+[
+  {
+    "id": "1",
+    "name": "Ucliq",
+    "description": "Buyer & Seller panel",
+    "images": [],
+    "link": "",
+    "code": "",
+    "icon": "",
+    "tags": [
+      {
+        "label": "",
+        "color": ""
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "name": "Agumentik",
+    "description": "Buyer, Seller & Admin panel",
+    "images": [],
+    "link": "",
+    "code": "",
+    "icon": "",
+    "tags": [
+      {
+        "label": "",
+        "color": ""
+      }
+    ]
+  }
+]
