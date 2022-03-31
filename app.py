@@ -3,12 +3,15 @@ import json
 
 app = Flask(__name__)
 
+global allData, projects
+
 
 @app.route("/")
 @app.route("/home/")
 @app.route("/dashboard/")
 def index():
-    return jsonify(allData)
+    return allData
+    # return jsonify(allData)
 
 
 @app.route("/project/")
@@ -19,7 +22,8 @@ def project(projectId=None):
 
     for project in projects:
         if project["id"] == projectId:
-            return jsonify(project)
+            return project
+            # return jsonify(project)
     return jsonify({"error": "Project not found"})
 
 
