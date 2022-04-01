@@ -4,7 +4,7 @@
   "designation": "Flutter Developer",
   "about": [
     {
-      "images": [],
+      "images": "",
       "description": ""
     }
   ],
@@ -16,60 +16,114 @@
       "tags": [
         {
           "label": "Flutter",
-          "color": "#FFB300"
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        },
+        {
+          "label": "Firebase",
+          "color": "#FFA000"
         }
       ]
+    }
+  ],
+  "experience": [
+    {
+      "id": "1",
+      "title": "",
+      "company": "",
+      "duration": "",
+      "description": ""
+    }
+  ],
+  "socials": [
+    {
+      "type": "Linked In",
+      "label": "Jatin5120",
+      "icon": "fa-brands fa-linkedin-in",
+      "link": "https://www.linkedin.com/in/Jatin5120/",
+      "color": "#0077B5"
+    },
+    {
+      "type": "Github",
+      "label": "Jatin5120",
+      "icon": "fa-brands fa-github",
+      "link": "https://www.github.com/Jatin5120/",
+      "color": "#333333"
+    },
+    {
+      "type": "Instagram",
+      "label": "jatin5120_",
+      "icon": "fa-brands fa-instagram",
+      "link": "https://www.instagram.com/jatin5120_/",
+      "color": "#E1306C"
+    },
+    {
+      "type": "Whatsapp",
+      "label": "+91 95307-63826",
+      "icon": "fa-brands fa-whatsapp",
+      "link": "https://wa.me/919530763826/",
+      "color": "#25D366"
+    },
+    {
+      "type": "Twitter",
+      "label": "Jatin5120",
+      "icon": "fa-brands fa-twitter",
+      "link": "https://www.twitter.com/Jatin5120/",
+      "color": "#1DA1F2"
     }
   ],
   "contacts": [
     {
       "type": "Linked In",
       "label": "Jatin5120",
-      "icon": "",
+      "icon": "fa-brands fa-linkedin-in",
       "link": "https://www.linkedin.com/in/Jatin5120/",
-      "color": "#FFB300"
+      "color": "#0077B5"
     },
     {
       "type": "Whatsapp",
       "label": "+91 95307-63826",
-      "icon": "",
+      "icon": "fa-brands fa-whatsapp",
       "link": "https://wa.me/919530763826/",
-      "color": "#FFB300"
+      "color": "#25D366"
     },
     {
       "type": "Call",
       "label": "+91 62834-01360",
-      "icon": "",
+      "icon": "fa-regular fa-phone",
       "link": "tel:+916283401360",
-      "color": "#FFB300"
+      "color": "#FF9900"
     },
     {
       "type": "Github",
       "label": "Jatin5120",
-      "icon": "",
+      "icon": "fa-brands fa-github",
       "link": "https://www.github.com/Jatin5120/",
-      "color": "#FFB300"
+      "color": "#333333"
     },
     {
       "type": "Instagram",
       "label": "jatin5120_",
-      "icon": "",
+      "icon": "fa-brands fa-instagram",
       "link": "https://www.instagram.com/jatin5120_/",
-      "color": "#FFB300"
+      "color": "#E1306C"
     },
     {
       "type": "Twitter",
       "label": "Jatin5120",
-      "icon": "",
+      "icon": "fa-brands fa-twitter",
       "link": "https://www.twitter.com/Jatin5120/",
-      "color": "#FFB300"
+      "color": "#1DA1F2"
     },
     {
       "type": "Email",
       "label": "getjatin5120@gmail.com",
-      "icon": "",
+      "icon": "fa-regular fa-envelope",
       "link": "mailto:getjatin5120@gmail.com",
-      "color": "#FFB300"
+      "color": "#EA4335"
     }
   ]
 }
