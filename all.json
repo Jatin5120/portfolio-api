@@ -2,17 +2,192 @@
   "profilePicture": "",
   "name": "Jatin",
   "designation": "Flutter Developer",
-  "about": [
-    {
-      "images": "",
-      "description": ""
-    }
-  ],
+  "about": {
+    "image": "",
+    "description": ""
+  },
   "projects": [
     {
       "id": "1",
-      "name": "",
-      "icon": "",
+      "name": "Life Expectancy Predictor using Machine Learning",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Python",
+          "color": "#FFA000"
+        },
+        {
+          "label": "Node Red",
+          "color": "##AA4444"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "name": "World Time Clock",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "name": "Pokédex",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "name": "Clock",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "name": "Neumorphic Calculator",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        }
+      ]
+    },
+    {
+      "id": "6",
+      "name": "College App",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        }
+      ]
+    },
+    {
+      "id": "7",
+      "name": "Nearlikes",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        },
+        {
+          "label": "Firebase",
+          "color": "#FFA000"
+        }
+      ]
+    },
+    {
+      "id": "8",
+      "name": "Truk App",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        },
+        {
+          "label": "Firebase",
+          "color": "#FFA000"
+        }
+      ]
+    },
+    {
+      "id": "9",
+      "name": "Find the Focus",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        },
+        {
+          "label": "Firebase",
+          "color": "#FFA000"
+        }
+      ]
+    },
+    {
+      "id": "10",
+      "name": "LKCTC One",
+      "icon": null,
+      "image": "",
+      "tags": [
+        {
+          "label": "Flutter",
+          "color": "#027DFD"
+        },
+        {
+          "label": "Dart",
+          "color": "#0553B1"
+        },
+        {
+          "label": "Firebase",
+          "color": "#FFA000"
+        }
+      ]
+    },
+    {
+      "id": "11",
+      "name": "E-commerce App",
+      "icon": null,
+      "image": "",
       "tags": [
         {
           "label": "Flutter",
