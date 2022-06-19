@@ -1,7 +1,7 @@
 {
   "profilePicture": "",
   "name": "Jatin",
-  "designation": "Flutter Developer",
+  "designation": "Software Developer",
   "about": {
     "image": "",
     "description": ""
@@ -19,7 +19,7 @@
         },
         {
           "label": "Node Red",
-          "color": "##AA4444"
+          "color": "#AA4444"
         }
       ]
     },
@@ -252,20 +252,6 @@
   ],
   "contacts": [
     {
-      "type": "Linked In",
-      "label": "Jatin5120",
-      "icon": "fa-brands fa-linkedin-in",
-      "link": "https://www.linkedin.com/in/Jatin5120/",
-      "color": "#0077B5"
-    },
-    {
-      "type": "Whatsapp",
-      "label": "+91 95307-63826",
-      "icon": "fa-brands fa-whatsapp",
-      "link": "https://wa.me/919530763826/",
-      "color": "#25D366"
-    },
-    {
       "type": "Call",
       "label": "+91 62834-01360",
       "icon": "fa-regular fa-phone",
@@ -273,32 +259,18 @@
       "color": "#FF9900"
     },
     {
-      "type": "Github",
-      "label": "Jatin5120",
-      "icon": "fa-brands fa-github",
-      "link": "https://www.github.com/Jatin5120/",
-      "color": "#333333"
-    },
-    {
-      "type": "Instagram",
-      "label": "jatin5120_",
-      "icon": "fa-brands fa-instagram",
-      "link": "https://www.instagram.com/jatin5120_/",
-      "color": "#E1306C"
-    },
-    {
-      "type": "Twitter",
-      "label": "Jatin5120",
-      "icon": "fa-brands fa-twitter",
-      "link": "https://www.twitter.com/Jatin5120/",
-      "color": "#1DA1F2"
-    },
-    {
       "type": "Email",
       "label": "getjatin5120@gmail.com",
       "icon": "fa-regular fa-envelope",
       "link": "mailto:getjatin5120@gmail.com",
       "color": "#EA4335"
+    },
+    {
+      "type": "Address",
+      "label": "Punjab, India",
+      "icon": "fa-regular fa-location-dot",
+      "link": "https://goo.gl/maps/5A54BtA9ToSDg1GK6",
+      "color": "#8F00FF"
     }
   ]
 }
