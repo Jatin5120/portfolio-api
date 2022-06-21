@@ -204,15 +204,6 @@
       ]
     }
   ],
-  "experience": [
-    {
-      "id": "1",
-      "title": "",
-      "company": "",
-      "duration": "",
-      "description": ""
-    }
-  ],
   "socials": [
     {
       "type": "Linked In",
@@ -237,9 +228,9 @@
     },
     {
       "type": "Whatsapp",
-      "label": "+91 95307-63826",
+      "label": "+91 62834-01360",
       "icon": "fa-brands fa-whatsapp",
-      "link": "https://wa.me/919530763826/",
+      "link": "https://wa.me/916283401360/",
       "color": "#25D366"
     },
     {
@@ -260,7 +251,7 @@
     },
     {
       "type": "Email",
-      "label": "getjatin5120@gmail.com",
+      "label": "contact.dev.jatin@gmail.com",
       "icon": "fa-regular fa-envelope",
       "link": "mailto:getjatin5120@gmail.com",
       "color": "#EA4335"
@@ -272,5 +263,6 @@
       "link": "https://goo.gl/maps/5A54BtA9ToSDg1GK6",
       "color": "#8F00FF"
     }
-  ]
+  ],
+  "services": ["Flutter", "Python"]
 }
