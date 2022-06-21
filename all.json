@@ -1,10 +1,9 @@
 {
-  "profilePicture": "",
   "name": "Jatin",
   "designation": "Software Developer",
   "about": {
     "image": "",
-    "description": ""
+    "description": "Knowledgeable, creative IT guy with considerable experience in Flutter, Dart, Python, C++, and Flask.\n\nSkilled in transforming ideas into practical and useful solutions."
   },
   "projects": [
     {
