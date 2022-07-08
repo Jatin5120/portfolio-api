@@ -244,21 +244,21 @@
     {
       "type": "Call",
       "label": "+91 62834-01360",
-      "icon": "fa-regular fa-phone",
+      "icon": "fa-solid fa-phone",
       "link": "tel:+916283401360",
       "color": "#FF9900"
     },
     {
       "type": "Email",
       "label": "contact.dev.jatin@gmail.com",
-      "icon": "fa-regular fa-envelope",
+      "icon": "fa-solid fa-envelope",
       "link": "mailto:getjatin5120@gmail.com",
       "color": "#EA4335"
     },
     {
       "type": "Address",
       "label": "Punjab, India",
-      "icon": "fa-regular fa-location-dot",
+      "icon": "fa-solid fa-location-dot",
       "link": "https://goo.gl/maps/5A54BtA9ToSDg1GK6",
       "color": "#8F00FF"
     }
