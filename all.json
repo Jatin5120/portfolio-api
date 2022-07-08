@@ -2,7 +2,7 @@
   "name": "Jatin",
   "designation": "Software Developer",
   "about": {
-    "image": "",
+    "image": "https://github.com/Jatin5120/portfolio/blob/main/assets/profile.png?raw=true",
     "description": "Knowledgeable, creative IT guy with considerable experience in Flutter, Dart, Python, C++, and Flask.\n\nSkilled in transforming ideas into practical and useful solutions."
   },
   "projects": [
@@ -57,7 +57,7 @@
     {
       "id": "4",
       "name": "Clock",
-      "icon": null,
+      "icon": "https://github.com/Jatin5120/Clock/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
       "image": "",
       "tags": [
         {
@@ -89,7 +89,7 @@
     {
       "id": "6",
       "name": "College App",
-      "icon": null,
+      "icon": "https://github.com/Jatin5120/College-App/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
       "image": "",
       "tags": [
         {
@@ -105,7 +105,7 @@
     {
       "id": "7",
       "name": "Nearlikes",
-      "icon": null,
+      "icon": "https://github.com/Jatin5120/nearlikes/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
       "image": "",
       "tags": [
         {
@@ -125,7 +125,7 @@
     {
       "id": "8",
       "name": "Truk App",
-      "icon": null,
+      "icon": "https://github.com/Jatin5120/truk-fleet/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
       "image": "",
       "tags": [
         {
@@ -145,7 +145,7 @@
     {
       "id": "9",
       "name": "Find the Focus",
-      "icon": null,
+      "icon": "https://github.com/Jatin5120/FindTheFocus/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
       "image": "",
       "tags": [
         {
@@ -165,7 +165,7 @@
     {
       "id": "10",
       "name": "LKCTC One",
-      "icon": null,
+      "icon": "https://github.com/Jatin5120/lkctc/blob/main/android/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png?raw=true",
       "image": "",
       "tags": [
         {
