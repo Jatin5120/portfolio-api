@@ -1,7 +1,13 @@
 from flask import Flask, jsonify
 import json
 
+from flask_cors import CORS, cross_origin
+
+
 app = Flask(__name__)
+
+cors = CORS(app)
+app.config["CORS_HEADERS"] = "Content-Type"
 
 
 def _getError(error="Invalid request", message="Unknown error occured."):
@@ -11,6 +17,7 @@ def _getError(error="Invalid request", message="Unknown error occured."):
 @app.route("/")
 @app.route("/home/")
 @app.route("/dashboard/")
+@cross_origin()
 def index():
     data = open("all.json", "r")
     allData = json.load(data)
